@@ -1,0 +1,35 @@
+Empresa;Paso;Descripción;Tipo de registro;Cuenta;Debe;Haber;Notas
+Distribuidora Bebidas S.A.;1ero;"Constitución de la sociedad por dos socios; cada uno aporta $250.000 en efectivo";Asiento;Caja;500000;0;
+Distribuidora Bebidas S.A.;1ero;"Constitución de la sociedad por dos socios; cada uno aporta $250.000 en efectivo";Asiento;Capital;0;500000;
+Distribuidora Bebidas S.A.;1ero;"Constitución de la sociedad por dos socios; cada uno aporta $250.000 en efectivo";Saldo patrimonial;Activo;500000;0;
+Distribuidora Bebidas S.A.;1ero;"Constitución de la sociedad por dos socios; cada uno aporta $250.000 en efectivo";Saldo patrimonial;Pasivo;0;0;
+Distribuidora Bebidas S.A.;1ero;"Constitución de la sociedad por dos socios; cada uno aporta $250.000 en efectivo";Saldo patrimonial;Patrimonio Neto;0;500000;
+Distribuidora Bebidas S.A.;2do;"Se adquiere un rodado (Kangoo) por $300.000; se paga $200.000 en efectivo y saldo en C/C";Asiento;Rodados;300000;0;
+Distribuidora Bebidas S.A.;2do;"Se adquiere un rodado (Kangoo) por $300.000; se paga $200.000 en efectivo y saldo en C/C";Asiento;Caja;0;200000;
+Distribuidora Bebidas S.A.;2do;"Se adquiere un rodado (Kangoo) por $300.000; se paga $200.000 en efectivo y saldo en C/C";Asiento;Deudas (C/C);0;100000;
+Distribuidora Bebidas S.A.;2do;"Se adquiere un rodado (Kangoo) por $300.000; se paga $200.000 en efectivo y saldo en C/C";Saldo patrimonial;Activo;600000;0;
+Distribuidora Bebidas S.A.;2do;"Se adquiere un rodado (Kangoo) por $300.000; se paga $200.000 en efectivo y saldo en C/C";Saldo patrimonial;Pasivo;0;100000;
+Distribuidora Bebidas S.A.;2do;"Se adquiere un rodado (Kangoo) por $300.000; se paga $200.000 en efectivo y saldo en C/C";Saldo patrimonial;Patrimonio Neto;0;500000;"Activo sube por inversión en rodado, PN no cambia"
+Distribuidora Bebidas S.A.;3ero;"Se adquieren mercaderías (2500 u a $125 c/u); se paga 50% en efectivo y saldo en C/C";Asiento;Mercaderías (Bienes de cambio);312500;0;
+Distribuidora Bebidas S.A.;3ero;"Se adquieren mercaderías (2500 u a $125 c/u); se paga 50% en efectivo y saldo en C/C";Asiento;Caja;0;156250;
+Distribuidora Bebidas S.A.;3ero;"Se adquieren mercaderías (2500 u a $125 c/u); se paga 50% en efectivo y saldo en C/C";Asiento;Deudas (C/C);0;156250;
+Distribuidora Bebidas S.A.;3ero;"Se adquieren mercaderías (2500 u a $125 c/u); se paga 50% en efectivo y saldo en C/C";Saldo patrimonial;Activo;756250;0;
+Distribuidora Bebidas S.A.;3ero;"Se adquieren mercaderías (2500 u a $125 c/u); se paga 50% en efectivo y saldo en C/C";Saldo patrimonial;Pasivo;0;256250;
+Distribuidora Bebidas S.A.;3ero;"Se adquieren mercaderías (2500 u a $125 c/u); se paga 50% en efectivo y saldo en C/C";Saldo patrimonial;Patrimonio Neto;0;500000;
+Distribuidora Bebidas S.A.;4to;"Se venden mercaderías (1000 u a $190 c/u), 50% en efectivo y 50% en C/C. Actualizar inventario";Asiento;Caja;95000;0;
+Distribuidora Bebidas S.A.;4to;"Se venden mercaderías (1000 u a $190 c/u), 50% en efectivo y 50% en C/C. Actualizar inventario";Asiento;Créditos por ventas C/C;95000;0;
+Distribuidora Bebidas S.A.;4to;"Se venden mercaderías (1000 u a $190 c/u), 50% en efectivo y 50% en C/C. Actualizar inventario";Asiento;Ventas;0;190000;
+Distribuidora Bebidas S.A.;4to;"Se venden mercaderías (1000 u a $190 c/u), 50% en efectivo y 50% en C/C. Actualizar inventario";Asiento;CMV;125000;0;
+Distribuidora Bebidas S.A.;4to;"Se venden mercaderías (1000 u a $190 c/u), 50% en efectivo y 50% en C/C. Actualizar inventario";Asiento;Mercaderías (Bienes de cambio);0;125000;"1000 u x $125"
+Distribuidora Bebidas S.A.;4to;"Se venden mercaderías (1000 u a $190 c/u), 50% en efectivo y 50% en C/C. Actualizar inventario";Resultado del período;Ganancia bruta;65000;0;"Ventas 190000 - CMV 125000"
+Distribuidora Bebidas S.A.;5to;"Cierre del ejercicio: amortización de rodados y cierre de resultados";Asiento;Amortización de rodados;60000;0;
+Distribuidora Bebidas S.A.;5to;"Cierre del ejercicio: amortización de rodados y cierre de resultados";Asiento;Amortización acumulada de rodados;0;60000;"Vida útil: 5 años"
+Distribuidora Bebidas S.A.;5to;"Cierre del ejercicio: amortización de rodados y cierre de resultados";Estado de resultados;Ventas;0;190000;
+Distribuidora Bebidas S.A.;5to;"Cierre del ejercicio: amortización de rodados y cierre de resultados";Estado de resultados;CMV;125000;0;
+Distribuidora Bebidas S.A.;5to;"Cierre del ejercicio: amortización de rodados y cierre de resultados";Estado de resultados;Amortizaciones;60000;0;
+Distribuidora Bebidas S.A.;5to;"Cierre del ejercicio: amortización de rodados y cierre de resultados";Estado de resultados;Utilidad del ejercicio;5000;0;"190000 - 125000 - 60000"
+Distribuidora Bebidas S.A.;5to;"Cierre del ejercicio: amortización de rodados y cierre de resultados";Asiento de cierre;Ganancias y pérdidas;5000;0;
+Distribuidora Bebidas S.A.;5to;"Cierre del ejercicio: amortización de rodados y cierre de resultados";Asiento de cierre;Utilidad del ejercicio (PN);0;5000;
+Distribuidora Bebidas S.A.;5to;"Cierre del ejercicio: amortización de rodados y cierre de resultados";Saldo patrimonial final;Activo;761250;0;
+Distribuidora Bebidas S.A.;5to;"Cierre del ejercicio: amortización de rodados y cierre de resultados";Saldo patrimonial final;Pasivo;0;256250;
+Distribuidora Bebidas S.A.;5to;"Cierre del ejercicio: amortización de rodados y cierre de resultados";Saldo patrimonial final;Patrimonio Neto;0;505000;
