@@ -158,6 +158,33 @@ Una empresa realiza las siguientes transacciones en el mes de enero:
 Realiza los asientos contables en el formato de partida doble.
 Indica la cuenta que se debita y la que se acredita en cada caso.
 
+=== Respuesta
+
+#table(
+  columns: (auto, auto, 1.8fr, auto),
+  stroke: .5pt,
+  align: (center, left, left, right),
+  [Ítem], [Cuenta], [Debe], [Haber],
+
+  [1], [Mercaderías (Activo +)], [12000], [],
+  [-], [Caja (Activo -)\[40\%\]], [], [4800],
+  [-], [Proveedores (Pasivo +) \[60\%\]], [], [7200],
+  [-], [Totales], [12000], [12000],
+
+  [2], [Caja (Activo +)], [10000], [],
+  [-], [Deudores por Ventas (Activo +)], [8000], [],
+  [-], [Ventas (Resultado Positivo)], [], [18000],
+  [-], [Totales], [18000], [18000],
+
+  [3], [Intereses perdidos (Resultado Negativo)], [200], [],
+  [-], [Intereses a pagar (Pasivo+)], [], [200],
+  [-], [Totales], [200], [200],
+
+  [4], [Bienes de Uso (Activo+)], [2500], [],
+  [-], [Caja (Activo-)], [], [2500],
+  [-], [Totales], [2500], [2500],
+)
+
 == Ejercicio 5: Registro de Asientos Contables - Empresa Comercial
 
 La empresa "Comercial ABC" realiza las siguientes transacciones durante el mes de marzo:
@@ -169,6 +196,37 @@ La empresa "Comercial ABC" realiza las siguientes transacciones durante el mes d
 
 Registra cada operación en el libro diario con la partida doble.
 Indica qué cuentas se debitan y cuáles se acreditan en cada asiento.
+
+=== Respuesta
+
+#table(
+  columns: (auto, auto, 1.8fr, auto),
+  stroke: .5pt,
+  align: (center, left, left, right),
+  [Ítem], [Cuenta], [Debe], [Haber],
+
+  [1], [Mercaderías (Activo +)], [15000], [],
+  [-], [Caja (Activo -)\[60\%\]], [], [9000],
+  [-], [Cuenta Corriente (Pasivo +) \[40\%\]], [], [6000],
+  [-], [Totales], [15000], [15000],
+
+  [2], [Caja (Activo +)\[70\%\]], [15400], [],
+  [-], [Deudores por Ventas (Activo+)\[30\%\]], [6600], [],
+  [-], [Ventas (Resultado Positivo)], [], [22000],
+  [-], [Totales], [22000], [22000],
+
+  [3], [Alquileres Perdidos (Resultado Negativo)], [3500], [],
+  [-], [Caja (Activo-)], [], [3500],
+  [-], [Totales], [3500], [3500],
+
+  [4], [Gastos de electricidad (Resultado Negativo)], [600], [],
+  [-], [Servicios a pagar (Pasivo+)], [], [2500],
+  [-], [Totales], [2500], [2500],
+
+  [5], [Banco \[Nombre del Banco\] (Activo+)], [10000], [],
+  [-], [Préstamo Bancario a Pagar (Pasivo+)], [], [10000],
+  [-], [Totales], [10000], [10000],
+)
 
 == Ejercicio 6: Registro de Asientos Contables - Empresa de Servicios
 
@@ -182,6 +240,36 @@ La empresa "Servicios Técnicos S.A." realiza las siguientes transacciones en ab
 Realiza los asientos contables en el formato de partida doble.
 Identifica las cuentas involucradas en cada transacción y su clasificación contable.
 
+=== Respuesta
+
+#table(
+  columns: (auto, auto, 1.8fr, auto),
+  stroke: .5pt,
+  align: (center, left, left, right),
+  [Ítem], [Cuenta], [Debe], [Haber],
+  // Podría tener en cuenta los costos de llevar a cabo el servicio, pero es super granular
+
+  [1], [Servicios Prestados (Resultado Positivo)], [8000], [],
+  [-], [Caja (Activo +)], [], [8000],
+  [-], [Totales], [8000], [8000],
+
+  [2], [Caja (Activo-)\[50\%\]], [], [1200],
+  [-], [Cuentas a Pagar (Pasivo+)\[50\%\]], [1200], [],
+  [-], [Totales], [1200], [1200],
+
+  [3], [Sueldos a pagar (Pasivo+)], [5000], [],
+  [-], [Caja (Activo-)], [], [5000],
+  [-], [Totales], [5000], [5000],
+
+  [4], [Bienes de Uso (Activo+)], [1200], [],
+  [-], [Caja (Activo-)], [], [1200],
+  [-], [Totales], [1200], [1200],
+
+  [5], [Deudas de servicio (Pasivo-)], [500], [],
+  [-], [Caja (Activo-)], [], [500],
+  [-], [Totales], [500], [500],
+)
+
 == Ejercicio 7:
 
 Al liquidarse una empresa, se vende el 60% al contado y el 40% a crédito:
@@ -190,6 +278,32 @@ Al liquidarse una empresa, se vende el 60% al contado y el 40% a crédito:
 - Terrenos por \$3.000, adquiridos hace 10 años a \$280.
 
 Realizar los correspondientes asientos.
+
+=== Respuesta
+
+#table(
+  columns: (auto, auto, 1.8fr, auto),
+  stroke: .5pt,
+  align: (center, left, left, right),
+  [Ítem], [Cuenta], [Debe], [Haber],
+
+  [1], [Caja (60%)], [480], [],
+  [-], [Créditos por ventas (40%)], [320], [],
+  [-], [Amortización acumulada muebles], [800], [],
+  [-], [Muebles], [], [800],
+  [-], [Resultado por venta de muebles], [], [800],
+
+  [2], [Caja (60%)], [720], [],
+  [-], [Créditos por ventas (40%)], [480], [],
+  [-], [Amortización acumulada equipos], [400], [],
+  [-], [Equipos], [], [800],
+  [-], [Resultado por venta de equipos], [], [800],
+
+  [3], [Caja (60%)], [1800], [],
+  [-], [Créditos por ventas (40%)], [1200], [],
+  [-], [Terrenos], [], [280],
+  [-], [Resultado por venta de terrenos], [], [2720],
+)
 
 == Ejercicio 8:
 
@@ -200,3 +314,41 @@ Vida útil del torno 100 meses.
 Costo de ventas \$1.200
 Realizar los correspondientes asientos para ambas empresas.
 - Ídem suponiendo que los intereses se documentan
+
+=== Respuesta
+
+#table(
+  columns: (auto, auto, 1.8fr, auto),
+  stroke: .5pt,
+  align: (center, left, left, right),
+  [Ítem], [Cuenta], [Debe], [Haber],
+
+  [1 (Compradora, 1/06)], [Torno], [2000], [],
+  [-], [Caja], [], [1000],
+  [-], [Documentos a pagar], [], [1000],
+
+  [2 (Vendedora, 1/06)], [Caja], [1000], [],
+  [-], [Documentos a cobrar], [1000], [],
+  [-], [Ventas], [], [2000],
+
+  [3 (Vendedora, 1/06)], [Costo de ventas], [1200], [],
+  [-], [Mercaderías / torno entregado], [], [1200],
+
+  [4 (Compradora, 1/10)], [Documentos a pagar], [1000], [],
+  [-], [Intereses perdidos (1% x 4 meses)], [40], [],
+  [-], [Caja], [], [1040],
+
+  [5 (Vendedora, 1/10)], [Caja], [1040], [],
+  [-], [Documentos a cobrar], [], [1000],
+  [-], [Intereses ganados (1% x 4 meses)], [], [40],
+
+  [6 (Ídem c/interés documentado - Compradora)], [Torno], [2000], [],
+  [-], [Intereses perdidos], [40], [],
+  [-], [Caja], [], [1000],
+  [-], [Documentos a pagar], [], [1040],
+
+  [7 (Ídem c/interés documentado - Vendedora)], [Caja], [1000], [],
+  [-], [Documentos a cobrar], [1040], [],
+  [-], [Ventas], [], [2000],
+  [-], [Intereses ganados], [], [40],
+)
