@@ -207,11 +207,11 @@ Indica qué cuentas se debitan y cuáles se acreditan en cada asiento.
 
   [1], [Mercaderías (Activo +)], [15000], [],
   [-], [Caja (Activo -)\[60\%\]], [], [9000],
-  [-], [Cuenta Corriente (Pasivo +) \[40\%\]], [], [6000],
+  [-], [Proveedores (Pasivo +) \[40\%\]], [], [6000],
   [-], [Totales], [15000], [15000],
 
   [2], [Caja (Activo +)\[70\%\]], [15400], [],
-  [-], [Deudores por Ventas (Activo+)\[30\%\]], [6600], [],
+  [-], [Banco Cuenta Corriente (Activo+)\[30\%\]], [6600], [],
   [-], [Ventas (Resultado Positivo)], [], [22000],
   [-], [Totales], [22000], [22000],
 
@@ -219,12 +219,12 @@ Indica qué cuentas se debitan y cuáles se acreditan en cada asiento.
   [-], [Caja (Activo-)], [], [3500],
   [-], [Totales], [3500], [3500],
 
-  [4], [Gastos de electricidad (Resultado Negativo)], [600], [],
-  [-], [Servicios a pagar (Pasivo+)], [], [2500],
-  [-], [Totales], [2500], [2500],
+  [4], [Servicios a pagar (Pasivo+)], [], [600],
+  [-], [Servicios (Resultado Negativo)], [600], [],
+  [-], [Totales], [600], [600],
 
-  [5], [Banco \[Nombre del Banco\] (Activo+)], [10000], [],
-  [-], [Préstamo Bancario a Pagar (Pasivo+)], [], [10000],
+  [5], [Banco Cuenta Corriente (Activo+)], [10000], [],
+  [-], [Préstamo Bancario (Pasivo+)], [], [10000],
   [-], [Totales], [10000], [10000],
 )
 
