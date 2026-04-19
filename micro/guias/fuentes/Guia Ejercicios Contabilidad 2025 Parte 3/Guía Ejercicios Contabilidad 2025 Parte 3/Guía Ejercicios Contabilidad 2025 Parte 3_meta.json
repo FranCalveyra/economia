@@ -1,0 +1,285 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Contabilidad y Presupuestos",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          133.8671875,
+          293.40997314453125
+        ],
+        [
+          406.2881774902344,
+          293.40997314453125
+        ],
+        [
+          406.2881774902344,
+          316.45001220703125
+        ],
+        [
+          133.8671875,
+          316.45001220703125
+        ]
+      ]
+    },
+    {
+      "title": "CONTABILIDAD- GU\u00cdA DE EJERCICIOS Parte 3/3",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          119.8984375,
+          34.9462890625
+        ],
+        [
+          402.37396240234375,
+          34.9462890625
+        ],
+        [
+          402.37396240234375,
+          49.50006103515625
+        ],
+        [
+          119.8984375,
+          49.50006103515625
+        ]
+      ]
+    },
+    {
+      "title": "Ejercicio 14:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.388671875,
+          63.314453125
+        ],
+        [
+          142.88914489746094,
+          63.314453125
+        ],
+        [
+          142.88914489746094,
+          75.90008544921875
+        ],
+        [
+          68.388671875,
+          75.90008544921875
+        ]
+      ]
+    },
+    {
+      "title": "Ejercicio 15:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          69.26171875,
+          319.861328125
+        ],
+        [
+          139.7691192626953,
+          319.861328125
+        ],
+        [
+          139.7691192626953,
+          332.1501159667969
+        ],
+        [
+          69.26171875,
+          332.1501159667969
+        ]
+      ]
+    },
+    {
+      "title": "Ejercicio 16:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.84375,
+          296.39007568359375
+        ],
+        [
+          139.7691192626953,
+          296.39007568359375
+        ],
+        [
+          139.7691192626953,
+          308.39007568359375
+        ],
+        [
+          69.84375,
+          308.39007568359375
+        ]
+      ]
+    },
+    {
+      "title": "Balance de inicio:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.552734375,
+          38.519287109375
+        ],
+        [
+          156.21743774414062,
+          38.519287109375
+        ],
+        [
+          156.21743774414062,
+          49.55926513671875
+        ],
+        [
+          69.552734375,
+          49.55926513671875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          3
+        ],
+        [
+          "Line",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "TableCell",
+          52
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Gu\u00eda Ejercicios Contabilidad 2025 Parte 3"
+}
