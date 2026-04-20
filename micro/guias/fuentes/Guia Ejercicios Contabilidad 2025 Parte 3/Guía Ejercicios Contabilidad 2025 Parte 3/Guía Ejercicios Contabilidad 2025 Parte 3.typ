@@ -3,12 +3,12 @@
 #let fila-vacia-2 = ([ ], [ ])
 #let fila-vacia-4 = ([ ], [ ], [ ], [ ])
 #let fila-vacia-5 = ([ ], [ ], [ ], [ ], [ ])
-#let espacio-calculos(height: 8em) = block(
+#let espacio-calculos(body: [], height: 8em) = block(
   width: 100%,
   height: height,
   stroke: .5pt,
   inset: 8pt,
-)[]
+)[#body]
 
 = #strong[Contabilidad y Presupuestos]
 <contabilidad-y-presupuestos>
@@ -29,12 +29,9 @@ cargos:
 - Gastos administrativos \$5.000
 - Sueldos de Adm., Vtas. y Fzas. \$45.000
 
-Al comenzar el ejercicio los saldos de producción en proceso y producción
-terminada eran de \$30.000 y \$60.000 respectivamente, y el inventario al
-fin del ejercicio registraba \$45.000 y \$35.000 para dichas cuentas.
+Al comenzar el ejercicio los saldos de producción en proceso y producción terminada eran de \$30.000 y \$60.000 respectivamente, y el inventario al fin del ejercicio registraba \$45.000 y \$35.000 para dichas cuentas.
 
-La empresa no lleva inventario permanente, las ventas del ejercicio fueron
-de \$120.000 al contado y \$30.000 a crédito.
+La empresa no lleva inventario permanente, las ventas del ejercicio fueron de \$120.000 al contado y \$30.000 a crédito.
 
 Calcular la utilidad del ejercicio.
 
@@ -44,22 +41,67 @@ Calcular la utilidad del ejercicio.
   stroke: .5pt,
   align: (left, right),
   table.header([Concepto], [Importe]),
-  [Producción en proceso inicial], [],
-  [Materia prima cargada al proceso], [],
-  [Mano de obra directa], [],
-  [Cargas fabriles], [],
-  [Costo de producción del período], [],
-  [Producción en proceso final], [],
-  [Costo de producción terminada], [],
-  [Producción terminada inicial], [],
-  [Producción terminada final], [],
-  [Costo de ventas], [],
-  [Ventas], [],
-  [Utilidad del ejercicio], [],
+  [Producción en proceso inicial], [30.000],
+  [Materia prima cargada al proceso], [45.000],
+  [Mano de obra directa], [5.000],
+  [Cargas fabriles], [17.000],
+  [Producción en proceso final], [45.000],
+  [Producción terminada inicial], [60.000],
+  [Producción terminada final], [35.000],
+  [Costo de ventas], [72.000],
+  [Ventas], [150.000],
+  [Utilidad del ejercicio], [78.000],
 )
-
+\
+\
 === Cálculos auxiliares
-#espacio-calculos(height: 10em)
+#espacio-calculos(height: 60em, body: [
+  ==== Variables que ya conozco
+  $
+    "MP"_"en proceso" = 45.000\
+    "Amort"_"fab"= \$12.000\
+    "Sueldos"_"fab"= \$8.000\
+    "Gastos grales."_"fab"= \$5.000\
+    "Gastos"_"adm"= \$5.000\
+    "Sueldos"_"adm"= \$45.000\
+    "PP"_i = \$30.000\
+    "PT"_i = \$60.000\
+    "PP"_f = \$45.000\
+    "PT"_f = \$35.000\
+    "Ventas" = \$150.000\
+    "MP"_"en proceso" = \$45.000\
+    "MOD" = "Sueldos de fábrica" = \$5.000\
+    "Cargas fabriles" = "Amort"_"fab" + "Gastos grales."_"fab" = \$17.000\
+  $
+
+  ==== Variables que me faltan
+  $
+    "Costo de ventas" = "PT"_i + "PT"_"ej" - "PT"_f\
+    "Utilidad del ejercicio" = "Ventas" - "Costo de ventas"\
+    "PT"_"ej" = "PP"_i + "PP"_"ej" - "PP"_f\
+    "PP"_"ej" = "MP"_i + sum "Cargos de producción" - "MP"_f
+  $
+
+  ==== Procedo a calcular...
+  $
+    "Costo de ventas" = "PT"_i (checkmark) + "PT"_"ej" (quest) - "PT"_f (checkmark) =>\
+    text("Calculando ") "PT"_"ej" = "PP"_i (checkmark) + "PP"_"ej" (quest) - "PP"_f (checkmark) =>\
+    "PP"_"ej" = "MP"_i + sum "Cargos de producción" - "MP"_f =\
+    45.000 + "Cargas fabriles" = 45.000 + 17.000 = bold(62.000)\
+    \
+    "PT"_"ej" = "PP"_i + "PP"_"ej" - "PP"_f = 30.000 + 62.000 - 45.000 = bold(47.000)\
+    \
+    "Costo de ventas" = "PT"_i + "PT"_"ej" - "PT"_f = 60.000 + 47.000 - 35.000 = bold(72.000)
+  $
+  // No tengo idea si tiene sentido que MP_i - MP_f = MP en proceso, pero voy a asumir que sí
+  \
+  Entonces, podemos decir que la utilidad del ejercicio es la siguiente:
+  $
+    "Utilidad del ejercicio" = "Ventas" - "Costo de ventas" =
+    150.000 - 72.000 = bold(78.000)
+  $
+])
+
 
 === #emph[Ejercicio 15:]
 <ejercicio-15>
