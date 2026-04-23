@@ -71,7 +71,7 @@ Calcular la utilidad del ejercicio.
     "Ventas" = \$150.000\
     "MP"_"en proceso" = \$45.000\
     "MOD" = "Sueldos de fábrica" = \$5.000\
-    "Cargas fabriles" = "Amort"_"fab" + "Gastos grales."_"fab" = \$17.000\
+    "Cargas fabriles" = "Amort"_"fab" + "Gastos grales."_"fab" + "MOD" + "MP"_"en proceso" = \$70.000\
   $
 
   ==== Variables que me faltan
@@ -87,18 +87,20 @@ Calcular la utilidad del ejercicio.
     "Costo de ventas" = "PT"_i (checkmark) + "PT"_"ej" (quest) - "PT"_f (checkmark) =>\
     text("Calculando ") "PT"_"ej" = "PP"_i (checkmark) + "PP"_"ej" (quest) - "PP"_f (checkmark) =>\
     "PP"_"ej" = "MP"_i + sum "Cargos de producción" - "MP"_f =\
-    45.000 + "Cargas fabriles" = 45.000 + 17.000 = bold(62.000)\
+    "Cargas fabriles" = bold(70.000)\
+  $
+  $
     \
-    "PT"_"ej" = "PP"_i + "PP"_"ej" - "PP"_f = 30.000 + 62.000 - 45.000 = bold(47.000)\
+    "PT"_"ej" = "PP"_i + "PP"_"ej" - "PP"_f = 30.000 + 70.000 - 45.000 = bold(55.000)\
     \
-    "Costo de ventas" = "PT"_i + "PT"_"ej" - "PT"_f = 60.000 + 47.000 - 35.000 = bold(72.000)
+    "Costo de ventas" = "PT"_i + "PT"_"ej" - "PT"_f = 60.000 + 55.000 - 35.000 = bold(80.000)
   $
   // No tengo idea si tiene sentido que MP_i - MP_f = MP en proceso, pero voy a asumir que sí
   \
   Entonces, podemos decir que la utilidad del ejercicio es la siguiente:
   $
     "Utilidad del ejercicio" = "Ventas" - "Costo de ventas" =
-    150.000 - 72.000 = bold(78.000)
+    150.000 - 80.000 = bold(70.000)
   $
 ])
 
