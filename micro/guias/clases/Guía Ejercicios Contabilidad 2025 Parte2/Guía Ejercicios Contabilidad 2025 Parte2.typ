@@ -114,13 +114,12 @@ Como acepto una devolución parcial por \$280 y la venta la había realizado por
   [Ítem], [Cuenta], [Variación patrimonial], [Debe], [Haber],
   [15/05], [Deudores por venta], [A+], [1500], [],
   [], [Ventas], [RP], [], [1500],
-  [ ], [Costo de Mercaderías vendidas], [RN], [750], [],
+  [ ], [Costo de Mercaderías vendidas], [RN+], [750], [],
   [ ], [Mercaderías], [A-], [ ], [750],
   [ ], [ ], [ ], [ ], [ ],
-  [10/06], [Devolución de ventas], [RN], [280], [ ],
-  [ ], [Deudores por ventas], [A-], [ ], [280],
+  [10/06], [Disponibilidades], [A-], [], [280],
+  [ ], [Devolución], [RN+], [140], [ ],
   [ ], [Mercaderías], [A+], [140], [ ],
-  [ ], [Costo de Mercaderías vendidas], [RN], [ ], [140],
 )
 
 ==== b) La mercadería estaba fallada pero es recuperable
@@ -132,14 +131,16 @@ Como acepto una devolución parcial por \$280 y la venta la había realizado por
   [Ítem], [Cuenta], [Variación patrimonial], [Debe], [Haber],
   [15/05], [Deudores por venta], [A+], [1500], [],
   [], [Ventas], [RP], [], [1500],
-  [ ], [Costo de Mercaderías vendidas], [RN], [750], [],
+  [ ], [Costo de Mercaderías vendidas], [RN+], [750], [],
   [ ], [Mercaderías], [A-], [ ], [750],
   [ ], [ ], [ ], [ ], [ ],
-  [10/06], [Devolución de ventas], [RN], [280], [ ],
-  [ ], [Deudores por ventas], [A-], [ ], [280],
-  [ ], [Mercaderías], [A+], [110], [ ],
-  [], [Falla de inventario], [RN], [30], [],
-  [ ], [Costo de Mercaderías vendidas], [RN], [ ], [140],
+  [10/06], [Disponibilidades], [A-], [], [280],
+  [ ], [Devolución], [RN+], [140], [ ],
+  [ ], [Mercaderías rotas], [A+], [140], [ ],
+  [ ], [Disponibilidades], [A-], [ ], [30],
+  [ ], [Reparación], [RN+], [30], [ ],
+  [ ], [Mercaderías rotas], [A-], [ ], [140],
+  [ ], [Mercaderías], [A+], [140], [ ],
 )
 
 ==== c) La mercadería estaba fallada y no es recuperable
@@ -151,13 +152,11 @@ Como acepto una devolución parcial por \$280 y la venta la había realizado por
   [Ítem], [Cuenta], [Variación patrimonial], [Debe], [Haber],
   [15/05], [Deudores por venta], [A+], [1500], [],
   [], [Ventas], [RP], [], [1500],
-  [ ], [Costo de Mercaderías vendidas], [RN], [750], [],
+  [ ], [Costo de Mercaderías vendidas], [RN+], [750], [],
   [ ], [Mercaderías], [A-], [ ], [750],
   [ ], [ ], [ ], [ ], [ ],
-  [10/06], [Devolución de ventas], [RN], [280], [ ],
-  [ ], [Deudores por ventas], [A-], [ ], [280],
-  [ ], [Mercaderías fallidas], [A-], [140], [ ],
-  [ ], [Costo de Mercaderías vendidas], [RN], [ ], [140],
+  [10/06], [Devolución por ventas], [RN+], [280], [ ],
+  [ ], [Disponibilidades], [A-], [ ], [280],
 )
 
 === Notas
@@ -199,7 +198,7 @@ Determinar cuántas unidades había al finalizar el ejercicio si, según el mét
 )
 
 === Cálculos auxiliares
-#espacio-calculos(height: 60em, body: [
+#espacio-calculos(height: 65em, body: [
   === Stock
   - 2.000u a 5\$/u\
   - 6.000 u a 6\$/u\
@@ -273,19 +272,20 @@ Realizar los asientos contables para EE.
   stroke: .5pt,
   align: (center, left, left, left, right),
   [Ítem], [Cuenta], [Variación patrimonial], [Debe], [Haber],
-  [17/06], [Anticipo a proveedores (fabricante de TVs)], [A+], [50.000], [],
-  [ ], [Costos de fabricación televisores (Caja)], [A-], [ ], [50.000],
+  [17/06], [Cargos diferidos (compra de televisores)], [A+], [400.000], [ ],
+  [], [A-], [Anticipo por televisores (Disponibilidades)], [A-], [50.000],
+  [], [P+], [Deudas comerciales (lo que me falta pagar de las TVs)], [ ], [350.000],
   [], [ ], [ ], [ ], [ ],
-  [05/07], [Deudas de proveedores], [A-], [400.000], [ ],
-  [ ], [Bienes de cambio (TVs)], [A+], [ ], [400.000],
-  [ ], [Fabricación TVs], [P-], [350.000], [ ],
+  [05/07], [Mercaderías], [A+], [400.000], [ ],
+  [ ], [Cargos diferidos], [A-], [400.000], [],
   [ ], [Caja], [A-], [ ], [350.000],
+  [ ], [Deudas comerciales], [P-], [350.000], [ ],
   [ ], [ ], [ ], [ ], [ ],
-  [07/07], [Deudores por Ventas], [A+], [650.000], [ ],
+  [07/07], [Crédito en C/C], [A+], [650.000], [ ],
   // Uso el precio de lista al momento de emitir la factura (6500)
-  [ ], [Ventas], [RP], [ ], [650.000],
-  [ ], [Costo de Mercaderías Vendidas (CMV)], [RN], [200.000], [ ],
+  [ ], [Ventas], [RP+], [ ], [650.000],
   [ ], [Mercaderías], [A-], [ ], [200.000],
+  [ ], [Costo de Mercaderías Vendidas (CMV)], [RN+], [200.000], [ ],
 )
 
 === Cálculos auxiliares
