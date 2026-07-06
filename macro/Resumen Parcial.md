@@ -4,6 +4,8 @@
 **Formato:** múltiple choice, ~50 preguntas (corrección con campana de Gauss, promedio histórico ≈ 5)
 **Énfasis:** todo lo de Eduardo Fracchia (fundamentos teóricos) + texto *"Lo que pasó en la democracia"* (desde 1983) + coyuntura actual.
 
+**Formato del final:** si el número de alumnos que rinde es menor a 10, el examen es **oral** (hay que argumentar y defender las respuestas); si son 10 o más, es un **escrito** de opción múltiple.
+
 ---
 
 ## Índice
@@ -24,6 +26,7 @@
 14. [Coyuntura](#14-coyuntura)
 15. [Posibles Preguntas de Examen](#15-posibles-preguntas-de-examen)
 16. [Guía para Entender la Coyuntura Macroeconómica](#16-guía-para-entender-la-coyuntura-macroeconómica)
+17. [Dinero, Banco Central y Sistema Financiero](#17-dinero-banco-central-y-sistema-financiero)
 
 ---
 
@@ -498,74 +501,49 @@ Las **reservas brutas** incluyen los encajes de los bancos. Las **reservas netas
 
 ## 10. Sector Público y Política Fiscal
 
-> *No confirmado explícitamente en clase. Estudiar con menor prioridad.*
+### Objetivo y teoría de Keynes
 
-### Rol del sector público
+El sector público **orienta, dirige y utiliza sus instrumentos** para estabilizar la coyuntura macroeconómica, interviniendo cuando la demanda es insuficiente respecto de la oferta.
 
-El objetivo del sector público es **orientar, dirigir y utilizar los instrumentos disponibles** para estabilizar la coyuntura macroeconómica. Interviene especialmente cuando la demanda es insuficiente para el nivel de oferta existente.
+Keynes (años 30, tras el crack del 29) propuso que el Estado no debía limitarse a un rol de "gendarme" (seguridad, servicios básicos), sino intervenir de forma **temporal** ante fluctuaciones no esperadas, resolviendo problemas de **insuficiencia de demanda** (Roosevelt lo aplicó en el *New Deal*). Surge así la **demanda de gasto público**: obra pública, transporte, logística, que sostienen el empleo y el ingreso.
 
-### Herramientas
+> Es una visión de **estabilidad temporal**: el Estado interviene ante shocks puntuales (ej: 2020), no para impulsar el crecimiento de forma permanente.
 
-El sector público tiene tres instrumentos para actuar sobre la economía:
-
-
-| Herramienta              | Qué es                                                                                                                                                                |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Impuestos / Tributos** | Obligaciones monetarias que paga el sector privado por determinadas transacciones (consumo, ventas, ganancias, inversiones). Principal fuente de ingresos del Estado. |
-| **Gasto público**        | Erogaciones del Estado en bienes, servicios e infraestructura. Afecta directamente la Demanda Agregada.                                                               |
-| **Transferencias**       | Pagos del Estado sin contraprestación directa (subsidios, jubilaciones, AUH). Redistribuyen ingreso sin generar producto directamente.                                |
+### Instrumentos y política fiscal
 
 
-El conjunto de decisiones sobre estas tres herramientas es la **Política Fiscal**.
+| Instrumento             | Qué es                                                                                          |
+| ------------------------ | ------------------------------------------------------------------------------------------------ |
+| **Impuestos (T)**        | Recaudación tributaria. Principal fuente de ingresos del Estado.                                |
+| **Gasto público (G)**    | Gasto total (planta pública) + gasto en inversión (ej: equipamiento hospitalario).               |
+| **Transferencias (TR)**  | Subsidios, jubilaciones, AUH — redistribuyen ingreso sin generar producto directamente.          |
+
+
+El conjunto de decisiones sobre estos tres instrumentos es la **Política Fiscal**, formalizada en la **Ley de Presupuesto Público** (se envía al Congreso en septiembre; si se rechaza, sigue vigente la ley del año en curso).
+
+- **Gasto**: sube → política **expansiva**; baja → **contractiva**. Es el instrumento más efectivo.
+- **Impuestos**: suben → contrae el ingreso disponible → **contractiva** (y desincentiva la inversión); bajan → **expansiva**.
+- **Anticíclica**: aumenta el gasto ante una caída del producto, para suavizarla. **Contracíclica/procíclica**: ajusta gasto o sube impuestos siguiendo la coyuntura (ej: ajuste de 1999 → crisis de 2001).
+- **Estabilizadores automáticos**: en recesión cae la recaudación (menos IVA/Ganancias) sin decisión discrecional, amortiguando la caída de demanda; en expansión sube la recaudación y modera el sobrecalentamiento. Efecto propio de impuestos proporcionales y progresivos.
 
 ### Impuestos
 
-#### Clasificación por alícuota
+Un impuesto es una obligación fiscal generada por una actividad económica (consumo, compra de vivienda, etc.). Además de financiar al Estado, redistribuye ingreso (ej: Ganancias financia transferencias a sectores de menores ingresos).
 
-- **Proporcional**: alícuota constante sobre la base gravada. Ej: IVA.
-- **Progresivo**: alícuota creciente a medida que aumenta la base gravada. Ej: Impuesto a las Ganancias.
-- **Regresivo**: alícuota decreciente a medida que aumenta la base gravada.
+- **Por alícuota — Proporcional**: misma tasa cualquiera sea el monto (ej: impuesto al cheque). **Progresivo**: tasa creciente con el monto (ej: Ganancias). **Regresivo**: tasa decreciente con el monto.
+- **Por momento de aplicación — Directo**: grava la obtención/posesión de riqueza (Ganancias, Bienes Personales). **Indirecto**: grava la transacción/uso del ingreso (IVA, Ingresos Brutos).
+- **Principios**: **Equidad** (quien más se beneficia de bienes públicos, más tributa), **Neutralidad** (afectar lo menos posible al mercado), **Simplicidad** (bajo costo de recaudación).
 
-> **Alícuota**: tasa o porcentaje fijo que se aplica a la base imponible para calcular el impuesto.
-> **Base imponible**: el monto o valor sobre el cual se aplica la alícuota.
+> El IVA es eficaz recaudando pero ineficiente socialmente: toda la sociedad tributa la misma alícuota sin importar el poder adquisitivo — por eso afecta más al decil más bajo de ingresos.
 
-#### Clasificación por momento de aplicación
+### Resultado fiscal y distribución
 
+$$\text{Resultado fiscal (primario)} = T - G - TR \qquad \text{Resultado financiero} = \text{Resultado primario} - \text{Intereses de deuda}$$
 
-| Tipo          | Cuándo se aplica                                | Qué grava                              | Ejemplo                                     |
-| ------------- | ----------------------------------------------- | -------------------------------------- | ------------------------------------------- |
-| **Directo**   | En el momento de generación del ingreso/riqueza | La *obtención* o *posesión* de riqueza | Impuesto a las Ganancias, Bienes Personales |
-| **Indirecto** | Cuando se utiliza el ingreso                    | La *transacción* (el uso del ingreso)  | IVA, Ingresos Brutos                        |
+Cero → balanceado; negativo → déficit; positivo → superávit. El **stock de deuda pública** es una variable de stock, no de flujo.
 
-
-#### Principios del sistema impositivo
-
-- **Equidad**: quien más se beneficia de los servicios públicos, mayor carga impositiva debe enfrentar.
-- **Neutralidad**: debe afectar lo menos posible el funcionamiento del mercado.
-- **Simplicidad**: debe ser sencillo de aplicar y eficaz en la recaudación.
-
-### Política Fiscal
-
-> Las decisiones del gobierno (Poder Ejecutivo) sobre gastos, impuestos y transferencias en un período determinado. Se define en la Ley de Presupuesto Público.
-
-#### Efectos del gasto público
-
-- **Aumento del gasto** → expande la Demanda Agregada → **política fiscal expansiva**.
-- **Disminución del gasto** → contrae la Demanda Agregada → **política fiscal contractiva**.
-
-#### Efectos de la política tributaria
-
-- **Aumento de impuestos** → reduce el ingreso disponible → contrae la demanda → **política fiscal contractiva**.
-- **Baja de impuestos** → aumenta el ingreso disponible → expande la demanda → **política fiscal expansiva**.
-
-#### Estabilizadores automáticos
-
-La política fiscal tiene un efecto estabilizador automático sobre el ciclo económico **sin necesidad de decisiones discrecionales**:
-
-- En **recesión**: cae el PIB → cae la recaudación automáticamente (menos IVA, menos Ganancias) → el Estado reduce menos el ingreso disponible de las familias → amortigua la caída de la demanda.
-- En **expansión**: sube el PIB → sube la recaudación automáticamente → el Estado retira más dinero de la economía → modera el sobrecalentamiento.
-
-> Esto es una propiedad del sistema impositivo, no una decisión activa del gobierno. Los impuestos proporcionales y progresivos son los que generan este efecto.
+- **Deciles**: diez tramos de población según ingreso (el decil "i" es el más bajo). El **coeficiente de GINI** mide qué proporción del ingreso total se apropia cada tramo — el indicador estándar de desigualdad.
+- **Licuación**: si hay inflación y consumo, sube la recaudación de IVA en la misma proporción (ej: +12% inflación → +12% IVA nominal), pero si el gasto no se ajusta al mismo ritmo, pierde valor real → puede generar superávit. Un déficit puntual no es necesariamente malo (puede ser gasto estratégico, ej: infraestructura para IA). Al bajar la inflación, la licuación también cae, y sostener el resultado fiscal ya requiere **crecimiento real**.
 
 ---
 
@@ -1084,5 +1062,84 @@ Se suele analizar Argentina desde estas preguntas:
 6. **¿Qué pasó en el mundo?** → Precio del petróleo, tasa de la FED, conflictos geopolíticos.
 
 Armarte una tabla simple con estas 6 preguntas y sus respuestas actualizadas es suficiente para entender la clase de coyuntura.
+
+---
+
+## 17. Dinero, Banco Central y Sistema Financiero
+
+### Qué es el dinero y sus formas
+
+El dinero es una **tecnología de cambio**: un activo cuyo valor está dado por su valor de uso — realizar transacciones, pagar deudas, crear crédito, trasladar riqueza en el tiempo.
+
+- **Dinero mercancía**: economía poco especializada, basada en el trueque; el dinero era la mercancía en sí (sal, ganado, clavos). Exigía doble coincidencia de necesidades entre las partes.
+- **Dinero convertible (oro/plata → papel)**: un orfebre recibía un bien y emitía un papel certificando la tenencia de oro guardado en su caja fuerte. De ahí surgieron los primeros bancos.
+- **Patrón oro**: los orfebres pasaron a emitir papel moneda de forma masiva (los primeros banqueros), basado en la confianza. Se abandonó en 1973, con la crisis del petróleo.
+- **Dinero fiduciario (actual)**: papel respaldado por la autoridad monetaria, no por un bien físico. Es "aceptado" por el mercado, pero en alta inflación esa aceptación se debilita y la gente busca cambiarlo por dólares o bienes.
+
+Debería ser divisible, transportable y duradero. **Funciones**: medio de pago aceptado, curso legal, cancelación de deudas — las tres se deterioran con la inflación. En Argentina el peso no cumple bien ninguna: el dólar funciona como reserva de valor y hasta unidad de cuenta de facto.
+
+> **Patacón**: cuasi-moneda emitida por provincias argentinas en la crisis de 2001/2002, ante la escasez de pesos.
+
+### Oferta y demanda de dinero
+
+La **oferta monetaria** es la cantidad de medios de pago disponibles en un momento dado, medida por los **agregados monetarios**:
+
+
+| Agregado | Compone                                                                                       |
+| -------- | ----------------------------------------------------------------------------------------------- |
+| **M0**   | Base monetaria: dinero en poder del público + reservas bancarias.                               |
+| **M1**   | Billetes y monedas + depósitos a la vista (cuenta corriente).                                   |
+| **M2**   | M1 + cajas de ahorro. Usado por los bancos centrales para fijar metas monetarias.               |
+| **M3**   | M2 + plazo fijo.                                                                                |
+| **M4**   | M3 + depósitos judiciales.                                                                      |
+
+
+El exceso de pesos se dirige primero al tipo de cambio (la gente se dolariza para preservar poder adquisitivo), y desde ahí se reconfiguran los precios — por eso la inflación es un fenómeno "estrictamente monetario", aunque su traslado a precios no es inmediato.
+
+Para ser dinero, un activo debe ser **medio de cambio**, **unidad de cuenta** y **reserva de valor**. La inflación temporal afecta la reserva de valor; la persistente afecta también la unidad de cuenta.
+
+**Motivos de demanda de dinero**: **precautorio** (anticipando períodos sin ingresos, ej. jubilación), **transaccional** (compra-venta) y **especulativo** (el dinero como activo financiero): ante mayor incertidumbre se prefiere liquidez; la relación entre tasa de interés y demanda de dinero es negativa. Bajas sostenidas de tasa hasta niveles mínimos pueden derivar en **trampa de liquidez** (preferencia extrema por liquidez).
+
+---
+
+### El Banco Central
+
+El manejo del dinero exige pragmatismo: ante shocks (pandemias, crisis internacionales) los objetivos ideales se relajan. El éxito de la política monetaria depende de una inflación estable (3-6% anual); 0% de inflación con crecimiento es prácticamente inalcanzable.
+
+**Funciones principales**: conservar el poder adquisitivo de la moneda, garantizar estabilidad de precios, llevar adelante la política monetaria y cambiaria, custodiar reservas internacionales, actuar como agente financiero del gobierno y prestamista de última instancia, proveer el dinero de curso legal, y regular el sistema bancario.
+
+- **Sistema de flotación de bandas**: precio de referencia con banda inferior y superior, condicionadas por las reservas del BCRA. Si las reservas no alcanzan para intervenir, hay presión alcista sobre el tipo de cambio oficial y surgen mercados paralelos (dólar blue).
+- Salir de una inflación alta exige que se reactive la **demanda de pesos transaccional** (sueldos, insumos, inversión) — no alcanza solo con medidas ortodoxas si la economía no se reactiva.
+- El **balance del BCRA** incluye reservas internacionales y créditos al sistema financiero y al sector público. Devaluación = depreciación; revaluación = apreciación. El tipo de cambio es uno de los precios más importantes de la economía porque reconfigura al resto.
+- **DEGs**: moneda que el FMI asigna según la participación de cada país (la de Argentina es mínima).
+
+**LELIQs y esterilización (2023)**: el BCRA transfería fondos al Tesoro sin compromiso de devolución. Para que ese excedente de pesos no presionara más el tipo de cambio, emitía mensualmente un título solo para bancos (**LELIQs**), pagando una tasa cercana a la inflación para incentivar su compra. Estos pasivos remunerados llegaron a duplicar la base monetaria, presionando igual sobre el tipo de cambio y, por lo tanto, sobre los precios. El gobierno de 2023 cortó la emisión, redujo esos pasivos y ordenó el mercado cambiario, bajando la inflación — aunque a costa de cierto **atraso cambiario** (el tipo de cambio subió menos que los precios).
+
+> La misión del BCRA no es el desarrollo económico en sí, sino la estabilidad de precios y la preservación de la moneda.
+
+### Sistema bancario y creación de dinero
+
+Los bancos son intermediarios: reciben depósitos y emiten crédito, constituyendo **reservas** (efectivo en caja + depósitos en el BCRA) — nunca prestan el 100% de lo depositado. En Argentina están muy líquidos por la baja demanda de crédito.
+
+- **Encaje**: proporción de depósitos que deben mantenerse como reserva (norma regulatoria del BCRA). A mayor encaje, más liquidez del sistema pero menor capacidad prestable.
+- **Operaciones pasivas** (captar depósitos, tasa pasiva) vs. **operaciones activas** (otorgar crédito, tasa activa).
+- **Creación primaria** (M0, el Banco Central) vs. **creación secundaria** (bancos comerciales vía crédito, limitada por el encaje).
+- **Multiplicador bancario**: con un encaje del 20%, un billete de $1.000 depositado genera $1.000 × (1/0,20) = $5.000 en crédito total.
+
+### Sistema financiero y política monetaria
+
+El sistema financiero tiene intermediarios **bancarios** (BCRA y bancos comerciales, que además manejan activos no monetarios) y **no bancarios** (cooperativas de ahorro/crédito, que intermedian valores transformables en liquidez). Los instrumentos de crédito no pueden emitirse sin límite: la expansión descontrolada de títulos sobre títulos de deuda originó la crisis subprime en EE.UU. El **canal del crédito** es el mecanismo por el cual el crédito bancario impulsa la demanda agregada.
+
+La **política monetaria** puede ser **cuantitativa** (cantidad de dinero) o **cualitativa** (tasa de interés, ej. la FED), y se complementa con la **política cambiaria** (a qué precio se administra el tipo de cambio).
+
+- **Expansiva**: aumenta la base monetaria o baja la tasa de interés → crédito más barato → sube el consumo y el producto.
+- **Contractiva**: sube la tasa de interés → crédito más caro y escaso → el dinero migra a bonos/títulos → cae el consumo y la demanda agregada.
+
+> El origen de una crisis financiera suele estar en la fase de expansión previa, cuando se relajan las condiciones de crédito.
+
+### Teorías de la inflación
+
+- **Monetarista**: la economía está en equilibrio; expandir la cantidad de dinero se traduce directamente en más precios.
+- **Keynesiano**: matiza esa relación — si la economía viene de una recesión prolongada, la expansión monetaria puede absorber capacidad ociosa antes de trasladarse a precios (equilibrio de "velocidad crucero"). Además existe la **inflación de costos**, no explicada por la cantidad de dinero (ej: la guerra en Ucrania encareció fertilizantes y, con eso, los alimentos).
 
 ---
